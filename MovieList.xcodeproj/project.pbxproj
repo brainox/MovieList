@@ -37,6 +37,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B496E99D26D070D800D3B148 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B4AC9AAA26D057C50042C742 /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		B496E99E26D070FC00D3B148 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B4AC9AAC26D057C50042C742 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B496E99F26D0712E00D3B148 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B4AC9AAF26D057C80042C742 /* Assets.xcassets */,
+				B4AC9AB426D057C80042C742 /* Info.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B496E9A026D0718200D3B148 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		B496E9A126D071B300D3B148 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B496E9A226D071C200D3B148 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		B4AC9A9A26D057C50042C742 = {
 			isa = PBXGroup;
 			children = (
@@ -58,11 +104,13 @@
 			children = (
 				B4AC9AA626D057C50042C742 /* AppDelegate.swift */,
 				B4AC9AA826D057C50042C742 /* SceneDelegate.swift */,
-				B4AC9AAA26D057C50042C742 /* ViewController.swift */,
-				B4AC9AAC26D057C50042C742 /* Main.storyboard */,
-				B4AC9AAF26D057C80042C742 /* Assets.xcassets */,
 				B4AC9AB126D057C80042C742 /* LaunchScreen.storyboard */,
-				B4AC9AB426D057C80042C742 /* Info.plist */,
+				B496E99D26D070D800D3B148 /* Controllers */,
+				B496E9A026D0718200D3B148 /* Networking */,
+				B496E9A126D071B300D3B148 /* Models */,
+				B496E99F26D0712E00D3B148 /* Resources */,
+				B496E9A226D071C200D3B148 /* ViewModels */,
+				B496E99E26D070FC00D3B148 /* Views */,
 			);
 			path = MovieList;
 			sourceTree = "<group>";

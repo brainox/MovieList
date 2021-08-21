@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B496E9A526D0792400D3B148 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = B496E9A426D0792400D3B148 /* Kingfisher */; };
+		B496E9A726D079F600D3B148 /* MoviesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B496E9A626D079F600D3B148 /* MoviesTableViewCell.swift */; };
 		B4AC9AA726D057C50042C742 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC9AA626D057C50042C742 /* AppDelegate.swift */; };
 		B4AC9AA926D057C50042C742 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC9AA826D057C50042C742 /* SceneDelegate.swift */; };
 		B4AC9AAB26D057C50042C742 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4AC9AAA26D057C50042C742 /* ViewController.swift */; };
@@ -16,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B496E9A626D079F600D3B148 /* MoviesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoviesTableViewCell.swift; sourceTree = "<group>"; };
 		B4AC9AA326D057C50042C742 /* MovieList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4AC9AA626D057C50042C742 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B4AC9AA826D057C50042C742 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B496E9A526D0792400D3B148 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +53,7 @@
 			isa = PBXGroup;
 			children = (
 				B4AC9AAC26D057C50042C742 /* Main.storyboard */,
+				B496E9A626D079F600D3B148 /* MoviesTableViewCell.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -131,6 +136,9 @@
 			dependencies = (
 			);
 			name = MovieList;
+			packageProductDependencies = (
+				B496E9A426D0792400D3B148 /* Kingfisher */,
+			);
 			productName = MovieList;
 			productReference = B4AC9AA326D057C50042C742 /* MovieList.app */;
 			productType = "com.apple.product-type.application";
@@ -158,6 +166,9 @@
 				Base,
 			);
 			mainGroup = B4AC9A9A26D057C50042C742;
+			packageReferences = (
+				B496E9A326D0792400D3B148 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = B4AC9AA426D057C50042C742 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -187,6 +198,7 @@
 			files = (
 				B4AC9AAB26D057C50042C742 /* ViewController.swift in Sources */,
 				B4AC9AA726D057C50042C742 /* AppDelegate.swift in Sources */,
+				B496E9A726D079F600D3B148 /* MoviesTableViewCell.swift in Sources */,
 				B4AC9AA926D057C50042C742 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -336,7 +348,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CJ98NSPAD;
-				INFOPLIST_FILE = MovieList/Info.plist;
+				INFOPLIST_FILE = MovieList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -355,7 +367,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6CJ98NSPAD;
-				INFOPLIST_FILE = MovieList/Info.plist;
+				INFOPLIST_FILE = MovieList/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +401,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B496E9A326D0792400D3B148 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.3.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B496E9A426D0792400D3B148 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B496E9A326D0792400D3B148 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B4AC9A9B26D057C50042C742 /* Project object */;
 }

@@ -16,7 +16,7 @@ Clone the repository
 $ git clone https://github.com/brainox/MovieList.git
 ```
 
-Install the application dependencies and devdependencies.
+Install the application dependencies and dev dependencies.
 
 ```sh
 $ cd MovieList

@@ -42,7 +42,7 @@
                                                     </constraints>
                                                 </view>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" adjustsFontForContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="XMK-po-TXs">
-                                                    <rect key="frame" x="230" y="46" width="164" height="44"/>
+                                                    <rect key="frame" x="224.5" y="46" width="169.5" height="44"/>
                                                     <fontDescription key="fontDescription" style="UICTFontTextStyleHeadline"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
@@ -52,18 +52,18 @@
                                                 </activityIndicatorView>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="XMK-po-TXs" firstAttribute="height" secondItem="L6d-jl-Boj" secondAttribute="height" multiplier="0.323529" id="54D-8Z-HPG"/>
                                                 <constraint firstAttribute="bottom" secondItem="amS-Hw-pj7" secondAttribute="bottom" constant="11" id="ERR-sS-g7L"/>
                                                 <constraint firstItem="fLa-uj-qmo" firstAttribute="centerX" secondItem="L6d-jl-Boj" secondAttribute="centerX" id="HuM-p9-zxZ"/>
-                                                <constraint firstItem="XMK-po-TXs" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="L6d-jl-Boj" secondAttribute="leading" symbolic="YES" id="Kqh-Qx-ZrT"/>
-                                                <constraint firstItem="XMK-po-TXs" firstAttribute="width" secondItem="L6d-jl-Boj" secondAttribute="width" multiplier="0.396135" id="QML-cv-lbC"/>
                                                 <constraint firstItem="YJa-UZ-eDA" firstAttribute="leading" secondItem="L6d-jl-Boj" secondAttribute="leading" constant="37" id="UW3-uI-GTn"/>
-                                                <constraint firstAttribute="trailing" secondItem="XMK-po-TXs" secondAttribute="trailing" constant="20" symbolic="YES" id="aK1-fB-ilC"/>
+                                                <constraint firstAttribute="trailing" secondItem="XMK-po-TXs" secondAttribute="trailing" constant="20" symbolic="YES" id="Uls-kp-mmD"/>
+                                                <constraint firstItem="XMK-po-TXs" firstAttribute="width" secondItem="L6d-jl-Boj" secondAttribute="width" multiplier="0.40942" id="Umc-zw-FE7"/>
                                                 <constraint firstItem="amS-Hw-pj7" firstAttribute="width" secondItem="L6d-jl-Boj" secondAttribute="width" multiplier="0.275362" id="cit-Mq-xPS"/>
+                                                <constraint firstItem="XMK-po-TXs" firstAttribute="centerY" secondItem="L6d-jl-Boj" secondAttribute="centerY" id="dUm-HW-48M"/>
                                                 <constraint firstItem="amS-Hw-pj7" firstAttribute="leading" secondItem="L6d-jl-Boj" secondAttribute="leading" constant="37" id="f5e-Yt-C5N"/>
-                                                <constraint firstItem="XMK-po-TXs" firstAttribute="centerY" secondItem="L6d-jl-Boj" secondAttribute="centerY" id="l7b-oM-9bc"/>
                                                 <constraint firstItem="amS-Hw-pj7" firstAttribute="centerY" secondItem="L6d-jl-Boj" secondAttribute="centerY" id="o9l-4P-rRW"/>
                                                 <constraint firstItem="amS-Hw-pj7" firstAttribute="top" secondItem="L6d-jl-Boj" secondAttribute="top" constant="11" id="oZF-yr-AuL"/>
+                                                <constraint firstItem="XMK-po-TXs" firstAttribute="height" secondItem="L6d-jl-Boj" secondAttribute="height" multiplier="0.323529" id="qqN-xY-lFh"/>
+                                                <constraint firstItem="XMK-po-TXs" firstAttribute="leading" secondItem="YJa-UZ-eDA" secondAttribute="trailing" constant="73.5" id="sXb-hd-P3I"/>
                                                 <constraint firstItem="fLa-uj-qmo" firstAttribute="centerY" secondItem="L6d-jl-Boj" secondAttribute="centerY" id="vP1-OM-OqS"/>
                                                 <constraint firstItem="amS-Hw-pj7" firstAttribute="height" secondItem="L6d-jl-Boj" secondAttribute="height" multiplier="0.838235" id="vUe-0t-8hZ"/>
                                             </constraints>
@@ -80,6 +80,9 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="moviesTableView" destination="rBI-ae-Hy9" id="W9k-JD-LgS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
